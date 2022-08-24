@@ -1,0 +1,17 @@
+# para ver la lista de templates de proyectos
+dotnet new --list
+
+# para crear un proyecto
+dotnet new <tipo-proyecto>   # ej. dotnet new console: crea una aplicacion de consola
+
+# para hacer correr nuestro proyecto
+dotnet run
+
+# compila un proyecto y todas sus dependencias, tambien verificar que toda la sintaxis este bien y no se tengan problemas con dependencias
+dotnet build
+
+# sirve restaurar las dependencias y las herramientas de un proyecto.
+dotnet restore
+
+# nos permite ejecutar el proyecto y va revisando los cambios del proyecto en tiempo real (similar a nodemon en node)
+dotnet watch run
